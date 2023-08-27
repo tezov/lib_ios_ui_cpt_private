@@ -6,8 +6,8 @@
 //
 
 import Foundation
-import lib_ios_ui_core
+
 
 public func helloUiCpt() -> String {
-    return "hello ui cpt and \(helloUiCore())"
+    return "hello ui cpt)"
 }
