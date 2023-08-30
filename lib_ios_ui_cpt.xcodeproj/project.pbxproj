@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		32FD5A61B94494B528E9A077 /* Pods_lib_ios_ui_cpt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2FB42EFE3A3BE1EBE95C54 /* Pods_lib_ios_ui_cpt.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		C704A31D2A9268C400675174 /* lib_ios_ui_core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C704A31C2A9268C400675174 /* lib_ios_ui_core.framework */; };
-		C7757A522A925DE5008B1DDC /* HELLO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7757A512A925DE5008B1DDC /* HELLO.swift */; };
+		C7757A522A925DE5008B1DDC /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7757A512A925DE5008B1DDC /* Dummy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +18,7 @@
 		8D2FB42EFE3A3BE1EBE95C54 /* Pods_lib_ios_ui_cpt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lib_ios_ui_cpt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C704A31C2A9268C400675174 /* lib_ios_ui_core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = lib_ios_ui_core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7757A472A925DD0008B1DDC /* lib_ios_ui_cpt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = lib_ios_ui_cpt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7757A512A925DE5008B1DDC /* HELLO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HELLO.swift; sourceTree = "<group>"; };
+		C7757A512A925DE5008B1DDC /* Dummy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 		C704A30F2A92679500675174 /* lib_ios_ui_cpt */ = {
 			isa = PBXGroup;
 			children = (
-				C7757A512A925DE5008B1DDC /* HELLO.swift */,
+				C7757A512A925DE5008B1DDC /* Dummy.swift */,
 			);
 			path = lib_ios_ui_cpt;
 			sourceTree = "<group>";
@@ -208,7 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7757A522A925DE5008B1DDC /* HELLO.swift in Sources */,
+				C7757A522A925DE5008B1DDC /* Dummy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
